@@ -69,3 +69,8 @@ See `docs/forking.md` for fork clone options and adding submissions.
 - **Autopilot**: `docs/autopilot.rst`
 - **Forking and LFS**: `docs/forking.md`
 - **Leaderboard**: `docs/leaderboard.rst`, `docs/leaderboard/metric_definitions.rst`
+
+
+## Community leaderboard preview
+
+This fork branch includes a [bilingual community preview](community/README.md) for all ten surfaces, separate current/historical reference cohorts, and an independent agent-comparison page. See the [preview screenshot](community/preview.png). This is a research snapshot; external submission and remote re-evaluation are not yet enabled.

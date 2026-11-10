@@ -1,0 +1,21 @@
+{
+  "submission_id": "example-replace-before-use",
+  "surface": "QA",
+  "cohort": "current",
+  "evaluator_commit": "c7949edc4ea6378fc3be633304c69c288c3b79b5",
+  "evaluation_grid": 128,
+  "geometry_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "case_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "protocol_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "artifacts": [
+    {
+      "path": "coils.json",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "case.yaml",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "note": "Illustrative manifest only. Replace every placeholder with hashes of your actual artifacts. Structure validation is not scientific verification."
+}

@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "dataset_id": "stellcoilbench-agent-comparison-final24-manuscript",
+  "title": "智能体对照 · 完整 24 次机会",
+  "status": "VERIFIED_LOCAL_PREVIEW",
+  "generated_at_utc": "2026-11-10T17:08:01.294218+00:00",
+  "experiment_ended_at_utc": "2026-11-10T08:11:13.904712+00:00",
+  "scope": "Ten manuscript arms on QA, QH and W7-X; separate from historical best-design leaderboards.",
+  "surface_order": [
+    "QA",
+    "QH",
+    "W7X"
+  ],
+  "evaluation": {
+    "selection_metric": "official_composite",
+    "higher_is_better": true,
+    "grid": 128,
+    "feedback_grid": 64,
+    "hard_checks": 3,
+    "soft_targets": 9,
+    "rank_only_complete_hard_pass_geometry": true,
+    "missing_score": null
+  },
+  "budget": {
+    "planned_opportunities_per_arm": 24,
+    "solver_seconds_cap_per_opportunity": 600,
+    "planned_solver_seconds_per_arm": 14400,
+    "threads_per_solver": 8,
+    "controller_trajectories": 1,
+    "independent_random_seed_repetitions": 0,
+    "equal_actual_solver_time": false,
+    "equal_tokens": false,
+    "equal_end_to_end_time": false
+  },
+  "summary": {
+    "arms": 10,
+    "planned_opportunities": 240,
+    "solver_attempts": 218,
+    "hard_pass": 151,
+    "hard_fail": 67,
+    "method_failure": 21,
+    "unstarted_infrastructure_unknown": 1,
+    "partial_checkpoint_execution_unknown": 6,
+    "soft_all": 1,
+    "solver_seconds": 123947.51759210578
+  },
+  "notes": [
+    "这是同一批24次计划机会的系统对照，与新旧十题的历史最佳线圈榜分开。",
+    "官方策略适配器额外获得完整推荐baseline；先验不对称，差异不能单独归因于智能体框架。",
+    "只有一条controller轨迹，没有独立随机种子重复，也没有证明普遍优势或公开榜SOTA。",
+    "每臂24次机会、每次600秒求解上限；实际求解次数、时间、token与端到端成本并不相同。",
+    "attempts是计划机会；solver_attempts是实际保留的科学候选。方法失败、未启动UNKNOWN与几何硬FAIL分开统计。",
+    "第20次机会的6份中断检查点仅复评，零新增搜索；原执行UNKNOWN和非收敛状态保留，可独立验证几何。",
+    "best128仅取三硬通过、九软完整的128网格官方综合分；九软全部达标另列，缺失合格分记null而非0。",
+    "bn是最高综合分那份几何的磁场误差，不是单独选择的最低磁场误差。",
+    "ScienceEvolve是相同controller的固定运行时替换条件，不是完整无限制自进化框架；只在QA测量。",
+    "这是已核验的本地预览，尚非官方接收的榜单成绩。"
+  ],
+  "fields": {
+    "attempts": "Planned opportunities, including non-started method failures and administrative UNKNOWN.",
+    "solver_attempts": "Archived candidate geometries, including independently evaluated interrupted checkpoints.",
+    "hard_pass": "Number of candidate geometries passing all three hard checks at grid128.",
+    "soft_all": "Number of hard-passing candidate geometries meeting all nine soft targets.",
+    "solver_seconds": "Sum of measured solver wall time for this arm; excludes model/evaluation/queue time.",
+    "best_soft_all": "Whether the best-composite geometry meets every soft target."
+  },
+  "rows": [
+    {
+      "id": "qa_ours_astra",
+      "surface": "QA",
+      "method": "ours_astra",
+      "label": "我们的智能体",
+      "label_en": "Our controller",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": 1.8614024629742916,
+      "bn": 0.0010630421231460684,
+      "best_round": 17,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 343,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 24,
+      "hard_fail": 0,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 0,
+      "budget_stop": 23,
+      "completed": 1,
+      "solver_seconds": 14308.69342521904,
+      "best_solver_seconds": 600.003063324024,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "535c09b804ac8cf57a635cacb87cd4521b7188823a73ce08d4c01928442cfccc",
+        "report_sha256": "77a89241bc6331718c6893ec52127729125d75a99e44acafb814e4ab72376cf7",
+        "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.787791650198109,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.8320568779669442,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.8614024629742916,
+          "solver_attempts": 24
+        }
+      ]
+    },
+    {
+      "id": "qa_official_astra",
+      "surface": "QA",
+      "method": "official_astra",
+      "label": "官方策略适配器",
+      "label_en": "Official-policy adapter",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": 1.8819742877355226,
+      "bn": 0.0020919312005039615,
+      "best_round": 8,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 367,
+      "attempts": 24,
+      "solver_attempts": 16,
+      "hard_pass": 16,
+      "hard_fail": 0,
+      "soft_all": 0,
+      "method_failure": 8,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 0,
+      "budget_stop": 5,
+      "completed": 11,
+      "solver_seconds": 8850.981434283662,
+      "best_solver_seconds": 584.6494069909677,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "c690c21fa1864fd50713a5a0964e2197704d77041db43db9693022af55996b07",
+        "report_sha256": "54166ad7e8b2d54bf88954a7f9ae72476a6ac383452065d15660f583a575a37c",
+        "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.8780555363952365,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.8819742877355226,
+          "solver_attempts": 10
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.8819742877355226,
+          "solver_attempts": 16
+        }
+      ]
+    },
+    {
+      "id": "qa_fixed",
+      "surface": "QA",
+      "method": "fixed",
+      "label": "固定搜索",
+      "label_en": "Fixed search",
+      "model_requested": null,
+      "comparison_role": "main_comparison",
+      "best128": 1.8303039579363933,
+      "bn": 0.006497148549343174,
+      "best_round": 2,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 517,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 23,
+      "hard_fail": 1,
+      "soft_all": 1,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 0,
+      "budget_stop": 12,
+      "completed": 12,
+      "solver_seconds": 11188.960255072452,
+      "best_solver_seconds": 243.38476894702762,
+      "all_soft_best": {
+        "score": 1.7136958300728535,
+        "bn": 0.0011960660215780956,
+        "round": 17,
+        "max_turns": 289,
+        "all_soft_pass": true,
+        "geometry_sha256": "6fddc4c8d9ddf89b75da7b4d9a1ec54adfbd121a3814a87f1c117197eb066b91",
+        "report_sha256": "13dc95a202e2d8b720b0df15c10155712ebd68c7290dff82c2625e81050128f9",
+        "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2"
+      },
+      "best_evidence": {
+        "geometry_sha256": "5e8be0889886c99fb211feb866337159b6ffdd38a747d7ac5bd0ce6a7e332509",
+        "report_sha256": "657f67869b5f5f696c438e8fdafe9a389bb9092d4e7e0f9e7233d80c9b7a59bb",
+        "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.8303039579363933,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.8303039579363933,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.8303039579363933,
+          "solver_attempts": 24
+        }
+      ]
+    },
+    {
+      "id": "qa_scienceevolve_astra",
+      "surface": "QA",
+      "method": "scienceevolve_astra",
+      "label": "ScienceEvolve 固定运行时",
+      "label_en": "ScienceEvolve fixed runtime",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "framework_ablation",
+      "best128": 1.7953529803174346,
+      "bn": 0.0006901617176660209,
+      "best_round": 14,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 338,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 24,
+      "hard_fail": 0,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 0,
+      "budget_stop": 24,
+      "completed": 0,
+      "solver_seconds": 14400.485642226995,
+      "best_solver_seconds": 600.0006856019609,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "5fae5467f2f0397bd7dbc92c05361d2b38fd3d8df3a58134c8ea25bcd021c429",
+        "report_sha256": "60cf0964805c7c3c93cc2d45d789674ab4b922614e48bcf6322e5c84ed44650f",
+        "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.791097610955752,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.794154286250176,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.7953529803174346,
+          "solver_attempts": 24
+        }
+      ]
+    },
+    {
+      "id": "qh_ours_astra",
+      "surface": "QH",
+      "method": "ours_astra",
+      "label": "我们的智能体",
+      "label_en": "Our controller",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": 1.0886352273932998,
+      "bn": 0.002179801360926567,
+      "best_round": 23,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 376,
+      "attempts": 24,
+      "solver_attempts": 23,
+      "hard_pass": 6,
+      "hard_fail": 17,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 1,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 21,
+      "completed": 1,
+      "solver_seconds": 13218.05053165683,
+      "best_solver_seconds": 600.0866674690042,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "a1642d2001da16c71a6223e01e844fd53e24935853b339479d2edeed656876d2",
+        "report_sha256": "3ebc2e77cab874206d3920a72044feb73c3a159d62aac3a7592051602a584622",
+        "protocol_sha256": "b45295352362b899c053f34ccac48ac83fa07162321321c3d3619545b5627159"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": null,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": null,
+          "solver_attempts": 11
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.0886352273932998,
+          "solver_attempts": 23
+        }
+      ]
+    },
+    {
+      "id": "qh_official_astra",
+      "surface": "QH",
+      "method": "official_astra",
+      "label": "官方策略适配器",
+      "label_en": "Official-policy adapter",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": null,
+      "bn": null,
+      "best_round": null,
+      "best_hard_status": "NO_ELIGIBLE_DESIGN",
+      "best_soft_all": null,
+      "best_max_turns": null,
+      "attempts": 24,
+      "solver_attempts": 22,
+      "hard_pass": 0,
+      "hard_fail": 22,
+      "soft_all": 0,
+      "method_failure": 2,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 21,
+      "completed": 0,
+      "solver_seconds": 12803.07683363522,
+      "best_solver_seconds": null,
+      "all_soft_best": null,
+      "best_evidence": null,
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": null,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": null,
+          "solver_attempts": 11
+        },
+        {
+          "opportunities": 24,
+          "best128": null,
+          "solver_attempts": 22
+        }
+      ]
+    },
+    {
+      "id": "qh_fixed",
+      "surface": "QH",
+      "method": "fixed",
+      "label": "固定搜索",
+      "label_en": "Fixed search",
+      "model_requested": null,
+      "comparison_role": "main_comparison",
+      "best128": 1.062194268513772,
+      "bn": 0.0026867806667552805,
+      "best_round": 5,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 472,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 1,
+      "hard_fail": 23,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 21,
+      "completed": 2,
+      "solver_seconds": 14001.242505702423,
+      "best_solver_seconds": 600.0576954899589,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "70802da8b330636ace480a65ca67fd6bf5373714beddeae8845f93d31109f134",
+        "report_sha256": "17e0e1161983f47fe5cc9b0c5dfbbc1d3f44e398998da925a1f6a15be305415b",
+        "protocol_sha256": "b45295352362b899c053f34ccac48ac83fa07162321321c3d3619545b5627159"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.062194268513772,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.062194268513772,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.062194268513772,
+          "solver_attempts": 24
+        }
+      ]
+    },
+    {
+      "id": "w7x_ours_astra",
+      "surface": "W7X",
+      "method": "ours_astra",
+      "label": "我们的智能体",
+      "label_en": "Our controller",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": 1.2045265635449938,
+      "bn": 0.002152636373122238,
+      "best_round": 15,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 292,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 23,
+      "hard_fail": 1,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 22,
+      "completed": 1,
+      "solver_seconds": 13976.816388719948,
+      "best_solver_seconds": 600.000567228999,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "c4a3d1c7ad8eb6bead7d872ad407460caf989cb9907593d6dd6a509b008359e1",
+        "report_sha256": "2500663f66ac865ab008891e72d6235a21c36493cda3b439d833687d09d6dc91",
+        "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.1857887021729188,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.2008344946733407,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.2045265635449938,
+          "solver_attempts": 24
+        }
+      ]
+    },
+    {
+      "id": "w7x_official_astra",
+      "surface": "W7X",
+      "method": "official_astra",
+      "label": "官方策略适配器",
+      "label_en": "Official-policy adapter",
+      "model_requested": "gpt-6-astra",
+      "comparison_role": "main_comparison",
+      "best128": 1.1873867399608145,
+      "bn": 0.002131194039951587,
+      "best_round": 1,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 312,
+      "attempts": 24,
+      "solver_attempts": 13,
+      "hard_pass": 13,
+      "hard_fail": 0,
+      "soft_all": 0,
+      "method_failure": 11,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 12,
+      "completed": 0,
+      "solver_seconds": 7432.60324293212,
+      "best_solver_seconds": 600.0344988739816,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "b9d9a33796305e39b5f3b9c7c59a88363de929c83e74764722bd833863977872",
+        "report_sha256": "062e372fb39a4cfe98a807e39dba82efc96879010ea3299f85e260429deebc26",
+        "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.1873867399608145,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.1873867399608145,
+          "solver_attempts": 9
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.1873867399608145,
+          "solver_attempts": 13
+        }
+      ]
+    },
+    {
+      "id": "w7x_fixed",
+      "surface": "W7X",
+      "method": "fixed",
+      "label": "固定搜索",
+      "label_en": "Fixed search",
+      "model_requested": null,
+      "comparison_role": "main_comparison",
+      "best128": 1.167592612483549,
+      "bn": 0.002212421798652178,
+      "best_round": 1,
+      "best_hard_status": "PASS",
+      "best_soft_all": false,
+      "best_max_turns": 326,
+      "attempts": 24,
+      "solver_attempts": 24,
+      "hard_pass": 21,
+      "hard_fail": 3,
+      "soft_all": 0,
+      "method_failure": 0,
+      "unstarted_infrastructure_unknown": 0,
+      "partial_checkpoint_execution_unknown": 1,
+      "budget_stop": 22,
+      "completed": 1,
+      "solver_seconds": 13766.607332657091,
+      "best_solver_seconds": 600.0346605749801,
+      "all_soft_best": null,
+      "best_evidence": {
+        "geometry_sha256": "3ee77f35c7f6baf662579ac45cf3c702312a2f81f9832974cfb4c32ff1359a5a",
+        "report_sha256": "4f470d5aaa660d9f5d2f5dab8fc9961d10081b765be7d0ce3a714af339ce580e",
+        "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53"
+      },
+      "budget_curve": [
+        {
+          "opportunities": 6,
+          "best128": 1.167592612483549,
+          "solver_attempts": 6
+        },
+        {
+          "opportunities": 12,
+          "best128": 1.167592612483549,
+          "solver_attempts": 12
+        },
+        {
+          "opportunities": 24,
+          "best128": 1.167592612483549,
+          "solver_attempts": 24
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuscript_scope_final24",
+      "sha256": "032fc7f7089efc30dc43cd836bf77a555f97db09a8524188a3e4d1f73445bd66"
+    },
+    {
+      "id": "independent_science_final24",
+      "sha256": "7922dac90c313a1d856a79d8a61002ddc34a18b8f578e4147aecdc2a5ee93bbd"
+    },
+    {
+      "id": "opportunity_verification_final24",
+      "sha256": "3213c0437dd2ad7d2f3c4fb4242cda640558d6240171342c6f9bebb4d233980c"
+    },
+    {
+      "id": "independent_incremental_crosscheck",
+      "sha256": "03f98eb0944e471038a203ff44d717b82aae92c7f1a1b6d1821abb9ea3f7293b"
+    },
+    {
+      "id": "cost_slot_audit_final24",
+      "sha256": "500f3270da74ef589dba07a9d9d062ac23a181b5a07a77e8174f49187defe7b0"
+    }
+  ]
+}

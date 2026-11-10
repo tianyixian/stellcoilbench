@@ -1,0 +1,2172 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-10T17:10:37.278973+00:00",
+  "title": "StellCoilBench 合作榜单预览",
+  "publication_status": "local_preview_not_submitted",
+  "cohort_semantics": "current/legacy identify the declared current selected references and legacy default reference sets. Retained candidates may originate from either historical recipe when paired physics is compatible; these are not two isolated original-agent campaigns.",
+  "scope": "10 surfaces x 2 reference cohorts. Selected retained designs with complete paired evidence; not an exhaustive leaderboard or an accepted official ranking.",
+  "scoring": {
+    "metric": "official_composite",
+    "higher_is_better": true,
+    "primary_grid": 128,
+    "hard_constraints": 3,
+    "soft_targets": 9,
+    "failures_are_retained": true
+  },
+  "warnings": [
+    "设计成绩榜与agent预算对照分开。",
+    "不能将两组榜中的同一几何算作独立成功。",
+    "硬通过与九软全过分开显示。",
+    "未评价或协议不符不填0、不判输赢。",
+    "公开网页缓存分数不替代双方同协议复算。"
+  ],
+  "cohorts": [
+    {
+      "id": "current",
+      "label": "新版参照 · 10题"
+    },
+    {
+      "id": "legacy",
+      "label": "旧版默认参照 · 10题"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "QA",
+      "label": "QA"
+    },
+    {
+      "id": "QH",
+      "label": "QH"
+    },
+    {
+      "id": "W7X",
+      "label": "W7-X"
+    },
+    {
+      "id": "MUSE",
+      "label": "MUSE"
+    },
+    {
+      "id": "CFQS",
+      "label": "CFQS"
+    },
+    {
+      "id": "HSX",
+      "label": "HSX"
+    },
+    {
+      "id": "NCSX",
+      "label": "NCSX"
+    },
+    {
+      "id": "tokamak",
+      "label": "圆形托卡马克"
+    },
+    {
+      "id": "rotating",
+      "label": "旋转椭圆"
+    },
+    {
+      "id": "Schuett",
+      "label": "Schuett"
+    }
+  ],
+  "cells": [
+    {
+      "id": "current_QA",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "QA",
+      "best_ours_id": "current_QA_ours_80729114f5",
+      "best_all_soft_id": "current_QA_all_soft_13dc95a202",
+      "official_reference_ids": [
+        "current_QA_official_aebb9608aa"
+      ],
+      "record_ids": [
+        "current_QA_ours_80729114f5",
+        "current_QA_official_aebb9608aa",
+        "current_QA_all_soft_13dc95a202"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "LOSE",
+      "score_delta_percent": -2.004767631048132,
+      "comparison_basis": "Current fixed reference and selected new geometry: paired 64/128 plus independent fresh128 confirmation.",
+      "last_scientific_update": "2026-11-11",
+      "historical_record_ids": [
+        "current_QA_ours_89b281f5bb",
+        "current_QA_official_6eac9bc31a"
+      ],
+      "all_soft_note": "另有固定搜索基线全软方案；不归因于我们agent，也不与本行官方跨协议比较。"
+    },
+    {
+      "id": "current_QH",
+      "cohort": "current",
+      "surface": "QH",
+      "label": "QH",
+      "best_ours_id": "current_QH_ours_384a17cfd4",
+      "best_all_soft_id": "current_QH_ours_384a17cfd4",
+      "official_reference_ids": [
+        "current_QH_official_a0a8b7784a"
+      ],
+      "record_ids": [
+        "current_QH_ours_384a17cfd4",
+        "current_QH_official_a0a8b7784a"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 1.4140708507398791,
+      "comparison_basis": "Current fixed reference and selected new geometry: paired 64/128 plus independent fresh128 confirmation.",
+      "last_scientific_update": "2026-11-11",
+      "historical_record_ids": [
+        "current_QH_ours_926a2c8898",
+        "current_QH_official_8bd32ebefd"
+      ]
+    },
+    {
+      "id": "current_W7X",
+      "cohort": "current",
+      "surface": "W7X",
+      "label": "W7-X",
+      "best_ours_id": "current_W7X_ours_2d373f7861",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "current_W7X_official_da39b100d5"
+      ],
+      "record_ids": [
+        "current_W7X_ours_2d373f7861",
+        "current_W7X_official_da39b100d5"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 9.7849565968116,
+      "comparison_basis": "Current fixed reference and selected new geometry: paired 64/128 plus independent fresh128 confirmation.",
+      "last_scientific_update": "2026-11-11",
+      "historical_record_ids": [
+        "current_W7X_ours_2ee59150c7",
+        "current_W7X_official_370c12a1f1"
+      ]
+    },
+    {
+      "id": "current_MUSE",
+      "cohort": "current",
+      "surface": "MUSE",
+      "label": "MUSE",
+      "best_ours_id": "current_MUSE_ours_375ce598ae",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "current_MUSE_official_84bc919113"
+      ],
+      "record_ids": [
+        "current_MUSE_ours_375ce598ae",
+        "current_MUSE_official_84bc919113"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 40.953095570091655,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_CFQS",
+      "cohort": "current",
+      "surface": "CFQS",
+      "label": "CFQS",
+      "best_ours_id": "current_CFQS_ours_219b02c0bf",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "current_CFQS_official_d548aafeba"
+      ],
+      "record_ids": [
+        "current_CFQS_ours_219b02c0bf",
+        "current_CFQS_official_d548aafeba"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 2.3056749758319395,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_HSX",
+      "cohort": "current",
+      "surface": "HSX",
+      "label": "HSX",
+      "best_ours_id": "current_HSX_ours_e175af65ac",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "current_HSX_official_0348deb5c7"
+      ],
+      "record_ids": [
+        "current_HSX_ours_e175af65ac",
+        "current_HSX_official_0348deb5c7"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 5.808216929015653,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_NCSX",
+      "cohort": "current",
+      "surface": "NCSX",
+      "label": "NCSX",
+      "best_ours_id": "current_NCSX_ours_6e37d26aa5",
+      "best_all_soft_id": "current_NCSX_all_soft_25ed00580b",
+      "official_reference_ids": [
+        "current_NCSX_official_183f587c42"
+      ],
+      "record_ids": [
+        "current_NCSX_ours_6e37d26aa5",
+        "current_NCSX_official_183f587c42",
+        "current_NCSX_all_soft_25ed00580b"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 5.544461468610917,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_tokamak",
+      "cohort": "current",
+      "surface": "tokamak",
+      "label": "圆形托卡马克",
+      "best_ours_id": "current_tokamak_ours_0294d27ae9",
+      "best_all_soft_id": "current_tokamak_ours_0294d27ae9",
+      "official_reference_ids": [
+        "current_tokamak_official_562b1742e1"
+      ],
+      "record_ids": [
+        "current_tokamak_ours_0294d27ae9",
+        "current_tokamak_official_562b1742e1"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "LOSE",
+      "score_delta_percent": -4.513114354287351,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_rotating",
+      "cohort": "current",
+      "surface": "rotating",
+      "label": "旋转椭圆",
+      "best_ours_id": "current_rotating_ours_308b275c62",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "current_rotating_official_523788be1c"
+      ],
+      "record_ids": [
+        "current_rotating_ours_308b275c62",
+        "current_rotating_official_523788be1c"
+      ],
+      "comparison_status": "no_valid_reference",
+      "reason": "官方参照未通过硬约束；保留其0分记录，但正分对0分不计胜。",
+      "outcome": null,
+      "score_delta_percent": null,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "current_Schuett",
+      "cohort": "current",
+      "surface": "Schuett",
+      "label": "Schuett",
+      "best_ours_id": null,
+      "best_all_soft_id": null,
+      "official_reference_ids": [],
+      "record_ids": [
+        "current_Schuett_unpaired_def3b2d35f"
+      ],
+      "comparison_status": "protocol_mismatch",
+      "reason": "当前方案为真空设置，选定官方方案使用virtual casing；无同设置128配对，不跨物理设置比较。",
+      "outcome": null,
+      "score_delta_percent": null,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03",
+      "unpaired_candidate_ids": [
+        "current_Schuett_unpaired_def3b2d35f"
+      ]
+    },
+    {
+      "id": "legacy_QA",
+      "cohort": "legacy",
+      "surface": "QA",
+      "label": "QA",
+      "best_ours_id": "legacy_QA_ours_89b281f5bb",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_QA_official_c305807244"
+      ],
+      "record_ids": [
+        "legacy_QA_ours_89b281f5bb",
+        "legacy_QA_official_c305807244"
+      ],
+      "comparison_status": "comparable",
+      "reason": "显示已验收的旧参照配对；11月11日暖启动新解未与这份旧默认参照完成同协议配对，未跨协议搬分。",
+      "outcome": "WIN",
+      "score_delta_percent": 3.937186943211368,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_QH",
+      "cohort": "legacy",
+      "surface": "QH",
+      "label": "QH",
+      "best_ours_id": "legacy_QH_ours_926a2c8898",
+      "best_all_soft_id": "legacy_QH_ours_926a2c8898",
+      "official_reference_ids": [
+        "legacy_QH_official_6d6a7a8425"
+      ],
+      "record_ids": [
+        "legacy_QH_ours_926a2c8898",
+        "legacy_QH_official_6d6a7a8425"
+      ],
+      "comparison_status": "comparable",
+      "reason": "显示已验收的旧参照配对；11月11日暖启动新解未与这份旧默认参照完成同协议配对，未跨协议搬分。",
+      "outcome": "WIN",
+      "score_delta_percent": 31.316459899757398,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_W7X",
+      "cohort": "legacy",
+      "surface": "W7X",
+      "label": "W7-X",
+      "best_ours_id": "legacy_W7X_ours_2ee59150c7",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_W7X_official_f9c3dcf71b"
+      ],
+      "record_ids": [
+        "legacy_W7X_ours_2ee59150c7",
+        "legacy_W7X_official_f9c3dcf71b"
+      ],
+      "comparison_status": "comparable",
+      "reason": "显示已验收的旧参照配对；11月11日暖启动新解未与这份旧默认参照完成同协议配对，未跨协议搬分。",
+      "outcome": "WIN",
+      "score_delta_percent": 11.324970595740869,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_MUSE",
+      "cohort": "legacy",
+      "surface": "MUSE",
+      "label": "MUSE",
+      "best_ours_id": "legacy_MUSE_ours_375ce598ae",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_MUSE_official_80f67db4f6"
+      ],
+      "record_ids": [
+        "legacy_MUSE_ours_375ce598ae",
+        "legacy_MUSE_official_80f67db4f6"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 43.47559232574816,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_CFQS",
+      "cohort": "legacy",
+      "surface": "CFQS",
+      "label": "CFQS",
+      "best_ours_id": "legacy_CFQS_ours_219b02c0bf",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_CFQS_official_d548aafeba"
+      ],
+      "record_ids": [
+        "legacy_CFQS_ours_219b02c0bf",
+        "legacy_CFQS_official_d548aafeba"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 2.3056749758319395,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_HSX",
+      "cohort": "legacy",
+      "surface": "HSX",
+      "label": "HSX",
+      "best_ours_id": "legacy_HSX_ours_e175af65ac",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_HSX_official_0348deb5c7"
+      ],
+      "record_ids": [
+        "legacy_HSX_ours_e175af65ac",
+        "legacy_HSX_official_0348deb5c7"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 5.808216929015653,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_NCSX",
+      "cohort": "legacy",
+      "surface": "NCSX",
+      "label": "NCSX",
+      "best_ours_id": "legacy_NCSX_ours_6e37d26aa5",
+      "best_all_soft_id": "legacy_NCSX_all_soft_25ed00580b",
+      "official_reference_ids": [
+        "legacy_NCSX_official_183f587c42"
+      ],
+      "record_ids": [
+        "legacy_NCSX_ours_6e37d26aa5",
+        "legacy_NCSX_official_183f587c42",
+        "legacy_NCSX_all_soft_25ed00580b"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "WIN",
+      "score_delta_percent": 5.544461468610917,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_tokamak",
+      "cohort": "legacy",
+      "surface": "tokamak",
+      "label": "圆形托卡马克",
+      "best_ours_id": "legacy_tokamak_ours_0294d27ae9",
+      "best_all_soft_id": "legacy_tokamak_ours_0294d27ae9",
+      "official_reference_ids": [
+        "legacy_tokamak_official_562b1742e1"
+      ],
+      "record_ids": [
+        "legacy_tokamak_ours_0294d27ae9",
+        "legacy_tokamak_official_562b1742e1"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "LOSE",
+      "score_delta_percent": -4.513114354287351,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_rotating",
+      "cohort": "legacy",
+      "surface": "rotating",
+      "label": "旋转椭圆",
+      "best_ours_id": "legacy_rotating_ours_308b275c62",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_rotating_official_523788be1c"
+      ],
+      "record_ids": [
+        "legacy_rotating_ours_308b275c62",
+        "legacy_rotating_official_523788be1c"
+      ],
+      "comparison_status": "no_valid_reference",
+      "reason": "官方参照未通过硬约束；保留其0分记录，但正分对0分不计胜。",
+      "outcome": null,
+      "score_delta_percent": null,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    },
+    {
+      "id": "legacy_Schuett",
+      "cohort": "legacy",
+      "surface": "Schuett",
+      "label": "Schuett",
+      "best_ours_id": "legacy_Schuett_ours_5ee07b5bfd",
+      "best_all_soft_id": null,
+      "official_reference_ids": [
+        "legacy_Schuett_official_cc832f3db5"
+      ],
+      "record_ids": [
+        "legacy_Schuett_ours_5ee07b5bfd",
+        "legacy_Schuett_official_cc832f3db5"
+      ],
+      "comparison_status": "comparable",
+      "reason": null,
+      "outcome": "LOSE",
+      "score_delta_percent": -0.03936778676175701,
+      "comparison_basis": "Matched 64/128 reevaluation within the declared reference cohort; historical recipes may supply either cohort.",
+      "last_scientific_update": "2026-11-03"
+    }
+  ],
+  "records": [
+    {
+      "id": "current_QA_ours_89b281f5bb",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "old_qa",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.6760857705776324,
+      "bn": 0.00035079114858802674,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "19faa1eac509ea99fa90374323e09eaa74640ed63f142b53498dc5d2be8abce9",
+      "geometry_sha256": "9d7ea744333bc13fe23fb19ea81e36c47b34c52809e5b251383b833faf441bd8",
+      "case_sha256": "c1a9bad5f328141c76ac30f16f64d2b753fac2ac25b0d1879a97ad3f1fa94520",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_89b281f5bbd04efae2ab.json",
+          "sha256": "b6aab3095a4e407ea8bcd3ba28a0f5fa294e9abba449e4b838a5a981bc1305b1",
+          "source_report_sha256": "89b281f5bbd04efae2ab096b0e1a4aeb2bb34564ab7fe42e2dbd9f92db5ecff9"
+        }
+      ]
+    },
+    {
+      "id": "current_QA_official_6eac9bc31a",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "official_qa_01",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.9135007697459148,
+      "bn": 0.003522635730136853,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "19faa1eac509ea99fa90374323e09eaa74640ed63f142b53498dc5d2be8abce9",
+      "geometry_sha256": "dd609373b2593fbd6a120d7f07882cc6bf6ad47539d70c546e9d5c9af227ef74",
+      "case_sha256": "a3833597197803e0bbd21ba5c667d60f5a4cbebc9ba13b048f8569ad910aa5b6",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_6eac9bc31a3d687841ea.json",
+          "sha256": "4a3d660c09067cb939f02ffb6c1b1b0b8a6845d54a5ebce885887aa083f4cf3d",
+          "source_report_sha256": "6eac9bc31a3d687841eacb2e1cad3bae2efce9fabfcc3fa89b7342b360d0037e"
+        }
+      ]
+    },
+    {
+      "id": "current_QH_ours_926a2c8898",
+      "cohort": "current",
+      "surface": "QH",
+      "label": "old_qh_final_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.7474547317166569,
+      "bn": 0.002340033644680755,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "ae4aacb0c2f4aa14e6af3f2e8fb61ca898c6590dddb7666756be164795620d72",
+      "geometry_sha256": "acf3582cafb2d4550db30d807cbd58f13506a9f85a45b8ac7fceef759b098712",
+      "case_sha256": "4e2bd7f60b6dbfa765d81711e9fabdaf6c9994283199611ffa8130cface068d3",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_926a2c8898ae6f6f5d84.json",
+          "sha256": "31b7e5547c1e53a3f961138fe1108b2d794af38f7f2817e4b00a1963dde36eb6",
+          "source_report_sha256": "926a2c8898ae6f6f5d84b1b0f6ce08bcc33d1fbcb69b43cb04ccbd62b325968d"
+        }
+      ]
+    },
+    {
+      "id": "current_QH_official_8bd32ebefd",
+      "cohort": "current",
+      "surface": "QH",
+      "label": "qh_current_official_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.725504422244917,
+      "bn": 0.001735933339989104,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "ae4aacb0c2f4aa14e6af3f2e8fb61ca898c6590dddb7666756be164795620d72",
+      "geometry_sha256": "fa8266b1a65d332303313b8d982e64e0c1309bb7554b69da9f43f202c82f2f3f",
+      "case_sha256": "646937def7253d059b0443f11ec9583be2e72946352d68bd53cd88996232be3a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_8bd32ebefd695ff0ad32.json",
+          "sha256": "c44e608c42af7db71543611076833ec744650dc0b282ca6412bdb7a653701ea3",
+          "source_report_sha256": "8bd32ebefd695ff0ad3218bbd94fc8d51723349a217fe4497a0ee67014515d04"
+        }
+      ]
+    },
+    {
+      "id": "current_W7X_ours_2ee59150c7",
+      "cohort": "current",
+      "surface": "W7X",
+      "label": "old_w7x_a",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.339110244388862,
+      "bn": 0.0028791280462083196,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53",
+      "geometry_sha256": "ef0da2de42c8f74ebb3457555b4c360c26d7e7e9ff51a56074145c0a931439f3",
+      "case_sha256": "753de393012651829d0bd5dea1ed26a222045ae8133c0768302a3e719ff64d0f",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_2ee59150c773f9fc3998.json",
+          "sha256": "80d1e19f5fb983b2caa534e45c1daf20cc4dc9442637831d60c9b69c55d6571b",
+          "source_report_sha256": "2ee59150c773f9fc39988200e2c4103029cd623eb51048b310757c5cb76386ca"
+        }
+      ]
+    },
+    {
+      "id": "current_W7X_official_370c12a1f1",
+      "cohort": "current",
+      "surface": "W7X",
+      "label": "official_w7x_agent",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.246583437727369,
+      "bn": 0.006811292245517566,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53",
+      "geometry_sha256": "e89e3a8550c625b8f395fc594bbf599ed408491760da27b86f66bf466773d526",
+      "case_sha256": "4f6bb8bc329b0b226922d88fe84f242738101a6189f97cadf1b8db4e91695f3a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_370c12a1f15184d83749.json",
+          "sha256": "453f206abbc270528e711ed02e073597f701587caebf04cc5be784a002fa680c",
+          "source_report_sha256": "370c12a1f15184d837494c48ec15ad3ff75cb003ba96c0de8bb0e7b3d72173fa"
+        }
+      ]
+    },
+    {
+      "id": "current_MUSE_ours_375ce598ae",
+      "cohort": "current",
+      "surface": "MUSE",
+      "label": "current_muse",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 2.1360293239513397,
+      "bn": 0.011236662875800335,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "total_superconductor_length_km",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3dad25229becf3aedae0911c683c6761ae5ecaca44e6c6a08cbb64bd956dba0d",
+      "geometry_sha256": "12b0cc5951c8e3785c032cf55bcbb776f4fe79e3f1d26fd28200ad23b89a815e",
+      "case_sha256": "99f03848850bd38c529c9dea615c529a3d49305971350f220adc5dfbd099559c",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_375ce598ae406aef8221.json",
+          "sha256": "d746caa613073c381b0f1157bfd958e04830b7751cd5afdbdcbf939ab327ff2a",
+          "source_report_sha256": "375ce598ae406aef82211f4e1af04eb5aa51e07f7dbd2268ed41048471d9bb44"
+        }
+      ]
+    },
+    {
+      "id": "current_MUSE_official_84bc919113",
+      "cohort": "current",
+      "surface": "MUSE",
+      "label": "official_muse_01",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.5154185265049094,
+      "bn": 0.01118600778393727,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 5,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "reactor_scale_total_length",
+        "total_superconductor_length_km",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3dad25229becf3aedae0911c683c6761ae5ecaca44e6c6a08cbb64bd956dba0d",
+      "geometry_sha256": "143816aed644d3f5fe66681b6b6afb59c74d7e8a804e6990c9675c4be8745bb8",
+      "case_sha256": "2c1bb743022c9236def61abbd690a9df83d9c580e2b720083738db3be96a991e",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_84bc919113fac7a080cf.json",
+          "sha256": "1019f7a983ec0bf51ce84de39f7ca3e195986479812ec6392963239cc04c11df",
+          "source_report_sha256": "84bc919113fac7a080cf56ca0074ac529c1e8db5e8e6b01c82c8378ce65727a6"
+        }
+      ]
+    },
+    {
+      "id": "current_CFQS_ours_219b02c0bf",
+      "cohort": "current",
+      "surface": "CFQS",
+      "label": "cfqs_20261026",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.4680044467261255,
+      "bn": 0.002252445863487634,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "a1cf1ac3397e195a132e736ba5e2cf5d1de61030e436b93471ad4d4c8edc7b17",
+      "geometry_sha256": "76e9155445c526660347997335727be1b1f310cff4326c52cc85075f1b10ed13",
+      "case_sha256": "8f6772a0bb9b23226aec278b29d831e17418d606b4f052e90b6323df8af50db8",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_219b02c0bfdb34a7065b.json",
+          "sha256": "afb2e6be2f0be8b8dee35c00dcf66a1d7474c947f36ad21b82ca5b165889830f",
+          "source_report_sha256": "219b02c0bfdb34a7065bb2d5176f947079c63fe7b963d4c0d8327d98add2c6a0"
+        }
+      ]
+    },
+    {
+      "id": "current_CFQS_official_d548aafeba",
+      "cohort": "current",
+      "surface": "CFQS",
+      "label": "reference_cfqs",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.4349198586226206,
+      "bn": 0.0033855239178402635,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cc_separation"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "a1cf1ac3397e195a132e736ba5e2cf5d1de61030e436b93471ad4d4c8edc7b17",
+      "geometry_sha256": "f69b116625c5523095066e5dc54263214f4a83062fe40fdad4b865b76a535a85",
+      "case_sha256": "7c48d6083e263da747374a89380def9a33558e3e51c6229ae6ca031a5207137a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_d548aafeba96a4f88c57.json",
+          "sha256": "ad89ee78ab8a06ba79712e610b8659a2e4cadef730d1cb8290ca82997598d86d",
+          "source_report_sha256": "d548aafeba96a4f88c575e3540f5228eb74d9084473f29cb03a6d1083209e5a8"
+        }
+      ]
+    },
+    {
+      "id": "current_HSX_ours_e175af65ac",
+      "cohort": "current",
+      "surface": "HSX",
+      "label": "old_hsx",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.3624759259671964,
+      "bn": 0.008251480497275154,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7b95df680a0c97563db40bd3e67d103210be8e1420d89ed021d6b1d2401e3ee6",
+      "geometry_sha256": "c86d80b275af64780528417ac6d65d1e945265d81994d506d1e47ff061145190",
+      "case_sha256": "fd28a0950a2d78a828e15abb16d86120a5f7aadf6c91744dafcde827d2b85717",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_e175af65ac382aeb5dff.json",
+          "sha256": "093d37a2b2cfeedf18113d7dee8d02df6ab9a05c2839b3f323c0aca90cd11a03",
+          "source_report_sha256": "e175af65ac382aeb5dffa48ec5575ce997da1e0c341b995c025f57f5c3cae5af"
+        }
+      ]
+    },
+    {
+      "id": "current_HSX_official_0348deb5c7",
+      "cohort": "current",
+      "surface": "HSX",
+      "label": "reference_hsx",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.2876844214105325,
+      "bn": 0.015082525093414121,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7b95df680a0c97563db40bd3e67d103210be8e1420d89ed021d6b1d2401e3ee6",
+      "geometry_sha256": "2d73f1699583fc126bda0e641d9f269efa1b2597156dd749ce099baf43660b95",
+      "case_sha256": "689f3ae1ee4b0554f42d69cf21c0b1b07e543e9fb442a0a24f8a95408af86925",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_0348deb5c758604bb37d.json",
+          "sha256": "15da155c3ccb72cf49eed2a2cc0e0739ebbeadf1401f5d89878c57415ef883c2",
+          "source_report_sha256": "0348deb5c758604bb37d4c0502c7ed5cda8bee442d9a7c1ca0058f20e9f0c539"
+        }
+      ]
+    },
+    {
+      "id": "current_NCSX_ours_6e37d26aa5",
+      "cohort": "current",
+      "surface": "NCSX",
+      "label": "ncsx_cap_349p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.3764004297394732,
+      "bn": 0.005190033298976775,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "0b20aa3b04a9dfbb406f3965efed9f972b84c0f2700ff3e41ea3bf7f2b7676dc",
+      "case_sha256": "722673294fe10de60e1a6c071668ccddccd7fa18da8db1d5dc6053597fb0c6ad",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_6e37d26aa587ae6dfc7b.json",
+          "sha256": "135941a48a6c0f28e851b0b1aa7127990a69e45479552ac59ccab8c6a60445f5",
+          "source_report_sha256": "6e37d26aa587ae6dfc7b2a22c523bad4a4ee5a1530bb89e8c975200771f02bfe"
+        }
+      ]
+    },
+    {
+      "id": "current_NCSX_official_183f587c42",
+      "cohort": "current",
+      "surface": "NCSX",
+      "label": "official_ncsx_basic_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.3040953647281783,
+      "bn": 0.005030858215698882,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "7f214ad210e0440b38d182c17ae876ba753b81464a164a6e3c6f7dd7ba7eeeb5",
+      "case_sha256": "f2708734c87389b17a80772691e7c23672bb78aa364ed540adda1d85502b75e5",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_183f587c42b2b4f0e2b3.json",
+          "sha256": "899a2792a1c30272e8ae94aa61a4ba988817d0f2b511291b2251d1b6b9ca65f1",
+          "source_report_sha256": "183f587c42b2b4f0e2b387e2768bc3b035479b00aa270b38faa7cba1376d8ef0"
+        }
+      ]
+    },
+    {
+      "id": "current_tokamak_ours_0294d27ae9",
+      "cohort": "current",
+      "surface": "tokamak",
+      "label": "current_tokamak",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.6032426584026753,
+      "bn": 0.0031098032221862494,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7eab465242e557e9bbc223cebcaff80db7d856128f2214941d6842a6e59a90c6",
+      "geometry_sha256": "a02f26e46b236edb89ab8c71b74b35ac9a8fc682d8987a0e30ab28890b97336f",
+      "case_sha256": "de59caaeb50d4fa0a48d7bc0b1a9a618ec894b5be469fd6a071866be2eaabd1b",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_0294d27ae914e840b9af.json",
+          "sha256": "d1a07f0b306c78450c281bd703da8d1f362eae04f4bf15187e0d6e267c2d23bc",
+          "source_report_sha256": "0294d27ae914e840b9af801777e8741b9ecc9d76acae9d5a3469a7e489803c59"
+        }
+      ]
+    },
+    {
+      "id": "current_tokamak_official_562b1742e1",
+      "cohort": "current",
+      "surface": "tokamak",
+      "label": "reference_tokamak_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.679018692002613,
+      "bn": 0.004338618580862248,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7eab465242e557e9bbc223cebcaff80db7d856128f2214941d6842a6e59a90c6",
+      "geometry_sha256": "1a1318e9ce93d979dac838a2ff82a2b8fba83d535912ed50e4e5f9aa3f9b3246",
+      "case_sha256": "29cd0a266d229fba2a9acf4d7d6d369a847f73ded89da174bd4f4a757e61fc04",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_562b1742e1c36132b120.json",
+          "sha256": "84278dac9c7c433b86ca6f5c01f71a872e6505eb576fb8b3037a900032e01c81",
+          "source_report_sha256": "562b1742e1c36132b1206a968183f5c2e2715645f362cc93c0208b906aadcdef"
+        }
+      ]
+    },
+    {
+      "id": "current_rotating_ours_308b275c62",
+      "cohort": "current",
+      "surface": "rotating",
+      "label": "rotating_cap_358p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.35423051200904,
+      "bn": 0.0044736123048630914,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7189d1dec989deba2f6019855d37e0edc02c1e3ea3f3c1f792f29aaecd370111",
+      "geometry_sha256": "647fac1ded7cf099386d08392a337210b0e7afb837109ccef4c8f8745e1e2aeb",
+      "case_sha256": "ce45d5c2b6ebf665fa62a5a206a473047b9cd2db2f8a7f2546d30506100352d8",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_308b275c621b2e6c1271.json",
+          "sha256": "a5f16b7f9d78bbb5f328f7580d8cd4d4d14874273da185fae5fab3b2e6784181",
+          "source_report_sha256": "308b275c621b2e6c127128aa1f05ab81ee5e2e3acb72b6e93374804995ea66ab"
+        }
+      ]
+    },
+    {
+      "id": "current_rotating_official_523788be1c",
+      "cohort": "current",
+      "surface": "rotating",
+      "label": "old_rotating_official_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 0.0,
+      "bn": 0.0009560435394727835,
+      "hard_status": "FAIL",
+      "hard_pass": 2,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7189d1dec989deba2f6019855d37e0edc02c1e3ea3f3c1f792f29aaecd370111",
+      "geometry_sha256": "169a87d9c7b41f0cebbee98544bd37667b0b2752237b41d539297efd394fc14d",
+      "case_sha256": "bac50952c3a1ed349035f30559d481257f7442f1c1daf7d66a617c62e0200991",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_523788be1c2f33244fde.json",
+          "sha256": "7c3588ff4c656e0a335377ca41d487357f792a2ac2102fc15e813a074c12149e",
+          "source_report_sha256": "523788be1c2f33244fdeb42a4472c6d64bd18d4bcd9f04d246d71799cef92b0e"
+        }
+      ]
+    },
+    {
+      "id": "legacy_QA_ours_89b281f5bb",
+      "cohort": "legacy",
+      "surface": "QA",
+      "label": "old_qa",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.6760857705776324,
+      "bn": 0.00035079114858802674,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "19faa1eac509ea99fa90374323e09eaa74640ed63f142b53498dc5d2be8abce9",
+      "geometry_sha256": "9d7ea744333bc13fe23fb19ea81e36c47b34c52809e5b251383b833faf441bd8",
+      "case_sha256": "c1a9bad5f328141c76ac30f16f64d2b753fac2ac25b0d1879a97ad3f1fa94520",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_89b281f5bbd04efae2ab.json",
+          "sha256": "b6aab3095a4e407ea8bcd3ba28a0f5fa294e9abba449e4b838a5a981bc1305b1",
+          "source_report_sha256": "89b281f5bbd04efae2ab096b0e1a4aeb2bb34564ab7fe42e2dbd9f92db5ecff9"
+        }
+      ]
+    },
+    {
+      "id": "legacy_QA_official_c305807244",
+      "cohort": "legacy",
+      "surface": "QA",
+      "label": "reference_qa",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.6125948949276478,
+      "bn": 0.0005075260109850749,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_total_length",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "19faa1eac509ea99fa90374323e09eaa74640ed63f142b53498dc5d2be8abce9",
+      "geometry_sha256": "f1b540083841c66efa0c22f7b9d203e9eb4ac20559afe21b3ae8cd068b64a23e",
+      "case_sha256": "981f19c52216efbbb7ed7e7a5d45110462d06fddad4f70017c891f308120553c",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_c305807244469ab53c92.json",
+          "sha256": "fe7910e57fc5efa242cc6e3bfd3acd44cdef53fa82b5db69a732ab92a8f02372",
+          "source_report_sha256": "c305807244469ab53c92d316a3373a282bc6376c0c678cbc29b37b458be2fb8c"
+        }
+      ]
+    },
+    {
+      "id": "legacy_QH_ours_926a2c8898",
+      "cohort": "legacy",
+      "surface": "QH",
+      "label": "old_qh_final_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.7474547317166569,
+      "bn": 0.002340033644680755,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "ae4aacb0c2f4aa14e6af3f2e8fb61ca898c6590dddb7666756be164795620d72",
+      "geometry_sha256": "acf3582cafb2d4550db30d807cbd58f13506a9f85a45b8ac7fceef759b098712",
+      "case_sha256": "4e2bd7f60b6dbfa765d81711e9fabdaf6c9994283199611ffa8130cface068d3",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_926a2c8898ae6f6f5d84.json",
+          "sha256": "31b7e5547c1e53a3f961138fe1108b2d794af38f7f2817e4b00a1963dde36eb6",
+          "source_report_sha256": "926a2c8898ae6f6f5d84b1b0f6ce08bcc33d1fbcb69b43cb04ccbd62b325968d"
+        }
+      ]
+    },
+    {
+      "id": "legacy_QH_official_6d6a7a8425",
+      "cohort": "legacy",
+      "surface": "QH",
+      "label": "qh_old_default_official_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.3307202562805953,
+      "bn": 0.0010091446450668819,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_arclength_variation"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "ae4aacb0c2f4aa14e6af3f2e8fb61ca898c6590dddb7666756be164795620d72",
+      "geometry_sha256": "24a6dd1b6fe7bc1db8ddc9aa46425da030f8832d19080cbbfa48111b6625ebf9",
+      "case_sha256": "6eac917cf53bd16ebcbc0e4b6cd42131a5c1f5c160eac943fd5190a05df7b9c4",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_6d6a7a842576530479d5.json",
+          "sha256": "d691d50db217662dbff96898ece123f3bcd12be29afd533dea596984afa5a86b",
+          "source_report_sha256": "6d6a7a842576530479d533e3a1b1739203666867f68c0ef3181ad24d17317acd"
+        }
+      ]
+    },
+    {
+      "id": "legacy_W7X_ours_2ee59150c7",
+      "cohort": "legacy",
+      "surface": "W7X",
+      "label": "old_w7x_a",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.339110244388862,
+      "bn": 0.0028791280462083196,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53",
+      "geometry_sha256": "ef0da2de42c8f74ebb3457555b4c360c26d7e7e9ff51a56074145c0a931439f3",
+      "case_sha256": "753de393012651829d0bd5dea1ed26a222045ae8133c0768302a3e719ff64d0f",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_2ee59150c773f9fc3998.json",
+          "sha256": "80d1e19f5fb983b2caa534e45c1daf20cc4dc9442637831d60c9b69c55d6571b",
+          "source_report_sha256": "2ee59150c773f9fc39988200e2c4103029cd623eb51048b310757c5cb76386ca"
+        }
+      ]
+    },
+    {
+      "id": "legacy_W7X_official_f9c3dcf71b",
+      "cohort": "legacy",
+      "surface": "W7X",
+      "label": "reference_w7x",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.2028839866049732,
+      "bn": 0.003864974071209449,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_arclength_variation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "79433023cbcaefaded338352789e2478921ae6ca1a8dbeac466a07eb656a6f53",
+      "geometry_sha256": "edd42618cfa3dcc4630ece1e2331b7a6310d5b919c2333b0728d890fc2f53be5",
+      "case_sha256": "c299ab131c3101201762044cd00fc8a557a03fd9beda8ce95f9e184074a3ccc2",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_f9c3dcf71b15a19ccc8e.json",
+          "sha256": "f15c8e53f26dd727f8148459ec915471e37ba4283ad1c66f24332793e8c952da",
+          "source_report_sha256": "f9c3dcf71b15a19ccc8ed41998e0736d85a14423762f6161bb07180ff47cf62f"
+        }
+      ]
+    },
+    {
+      "id": "legacy_MUSE_ours_375ce598ae",
+      "cohort": "legacy",
+      "surface": "MUSE",
+      "label": "current_muse",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 2.1360293239513397,
+      "bn": 0.011236662875800335,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "total_superconductor_length_km",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3dad25229becf3aedae0911c683c6761ae5ecaca44e6c6a08cbb64bd956dba0d",
+      "geometry_sha256": "12b0cc5951c8e3785c032cf55bcbb776f4fe79e3f1d26fd28200ad23b89a815e",
+      "case_sha256": "99f03848850bd38c529c9dea615c529a3d49305971350f220adc5dfbd099559c",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_375ce598ae406aef8221.json",
+          "sha256": "d746caa613073c381b0f1157bfd958e04830b7751cd5afdbdcbf939ab327ff2a",
+          "source_report_sha256": "375ce598ae406aef82211f4e1af04eb5aa51e07f7dbd2268ed41048471d9bb44"
+        }
+      ]
+    },
+    {
+      "id": "legacy_MUSE_official_80f67db4f6",
+      "cohort": "legacy",
+      "surface": "MUSE",
+      "label": "reference_muse",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.4887754002797084,
+      "bn": 0.01031217727505993,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3dad25229becf3aedae0911c683c6761ae5ecaca44e6c6a08cbb64bd956dba0d",
+      "geometry_sha256": "e692d23632382c0d484b6233fc333f5cbe00f7d9bf86121c8db39b629fcd7d4a",
+      "case_sha256": "2c1bb743022c9236def61abbd690a9df83d9c580e2b720083738db3be96a991e",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_80f67db4f602ec3e1edf.json",
+          "sha256": "3f4701da320b170b2a77e3bb31282c14d8c2169959f1e181df50c2fc6e18435a",
+          "source_report_sha256": "80f67db4f602ec3e1edfd43cbb51e12436200df627e774a8cbfd7f9edf6d513b"
+        }
+      ]
+    },
+    {
+      "id": "legacy_CFQS_ours_219b02c0bf",
+      "cohort": "legacy",
+      "surface": "CFQS",
+      "label": "cfqs_20261026",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.4680044467261255,
+      "bn": 0.002252445863487634,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "a1cf1ac3397e195a132e736ba5e2cf5d1de61030e436b93471ad4d4c8edc7b17",
+      "geometry_sha256": "76e9155445c526660347997335727be1b1f310cff4326c52cc85075f1b10ed13",
+      "case_sha256": "8f6772a0bb9b23226aec278b29d831e17418d606b4f052e90b6323df8af50db8",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_219b02c0bfdb34a7065b.json",
+          "sha256": "afb2e6be2f0be8b8dee35c00dcf66a1d7474c947f36ad21b82ca5b165889830f",
+          "source_report_sha256": "219b02c0bfdb34a7065bb2d5176f947079c63fe7b963d4c0d8327d98add2c6a0"
+        }
+      ]
+    },
+    {
+      "id": "legacy_CFQS_official_d548aafeba",
+      "cohort": "legacy",
+      "surface": "CFQS",
+      "label": "reference_cfqs",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.4349198586226206,
+      "bn": 0.0033855239178402635,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cc_separation"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "a1cf1ac3397e195a132e736ba5e2cf5d1de61030e436b93471ad4d4c8edc7b17",
+      "geometry_sha256": "f69b116625c5523095066e5dc54263214f4a83062fe40fdad4b865b76a535a85",
+      "case_sha256": "7c48d6083e263da747374a89380def9a33558e3e51c6229ae6ca031a5207137a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_d548aafeba96a4f88c57.json",
+          "sha256": "ad89ee78ab8a06ba79712e610b8659a2e4cadef730d1cb8290ca82997598d86d",
+          "source_report_sha256": "d548aafeba96a4f88c575e3540f5228eb74d9084473f29cb03a6d1083209e5a8"
+        }
+      ]
+    },
+    {
+      "id": "legacy_HSX_ours_e175af65ac",
+      "cohort": "legacy",
+      "surface": "HSX",
+      "label": "old_hsx",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.3624759259671964,
+      "bn": 0.008251480497275154,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7b95df680a0c97563db40bd3e67d103210be8e1420d89ed021d6b1d2401e3ee6",
+      "geometry_sha256": "c86d80b275af64780528417ac6d65d1e945265d81994d506d1e47ff061145190",
+      "case_sha256": "fd28a0950a2d78a828e15abb16d86120a5f7aadf6c91744dafcde827d2b85717",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_e175af65ac382aeb5dff.json",
+          "sha256": "093d37a2b2cfeedf18113d7dee8d02df6ab9a05c2839b3f323c0aca90cd11a03",
+          "source_report_sha256": "e175af65ac382aeb5dffa48ec5575ce997da1e0c341b995c025f57f5c3cae5af"
+        }
+      ]
+    },
+    {
+      "id": "legacy_HSX_official_0348deb5c7",
+      "cohort": "legacy",
+      "surface": "HSX",
+      "label": "reference_hsx",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.2876844214105325,
+      "bn": 0.015082525093414121,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 7,
+      "soft_count": 9,
+      "soft_failures": [
+        "avg_BdotN_over_B",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7b95df680a0c97563db40bd3e67d103210be8e1420d89ed021d6b1d2401e3ee6",
+      "geometry_sha256": "2d73f1699583fc126bda0e641d9f269efa1b2597156dd749ce099baf43660b95",
+      "case_sha256": "689f3ae1ee4b0554f42d69cf21c0b1b07e543e9fb442a0a24f8a95408af86925",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_0348deb5c758604bb37d.json",
+          "sha256": "15da155c3ccb72cf49eed2a2cc0e0739ebbeadf1401f5d89878c57415ef883c2",
+          "source_report_sha256": "0348deb5c758604bb37d4c0502c7ed5cda8bee442d9a7c1ca0058f20e9f0c539"
+        }
+      ]
+    },
+    {
+      "id": "legacy_NCSX_ours_6e37d26aa5",
+      "cohort": "legacy",
+      "surface": "NCSX",
+      "label": "ncsx_cap_349p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.3764004297394732,
+      "bn": 0.005190033298976775,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "0b20aa3b04a9dfbb406f3965efed9f972b84c0f2700ff3e41ea3bf7f2b7676dc",
+      "case_sha256": "722673294fe10de60e1a6c071668ccddccd7fa18da8db1d5dc6053597fb0c6ad",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_6e37d26aa587ae6dfc7b.json",
+          "sha256": "135941a48a6c0f28e851b0b1aa7127990a69e45479552ac59ccab8c6a60445f5",
+          "source_report_sha256": "6e37d26aa587ae6dfc7b2a22c523bad4a4ee5a1530bb89e8c975200771f02bfe"
+        }
+      ]
+    },
+    {
+      "id": "legacy_NCSX_official_183f587c42",
+      "cohort": "legacy",
+      "surface": "NCSX",
+      "label": "official_ncsx_basic_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.3040953647281783,
+      "bn": 0.005030858215698882,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "7f214ad210e0440b38d182c17ae876ba753b81464a164a6e3c6f7dd7ba7eeeb5",
+      "case_sha256": "f2708734c87389b17a80772691e7c23672bb78aa364ed540adda1d85502b75e5",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_183f587c42b2b4f0e2b3.json",
+          "sha256": "899a2792a1c30272e8ae94aa61a4ba988817d0f2b511291b2251d1b6b9ca65f1",
+          "source_report_sha256": "183f587c42b2b4f0e2b387e2768bc3b035479b00aa270b38faa7cba1376d8ef0"
+        }
+      ]
+    },
+    {
+      "id": "legacy_tokamak_ours_0294d27ae9",
+      "cohort": "legacy",
+      "surface": "tokamak",
+      "label": "current_tokamak",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.6032426584026753,
+      "bn": 0.0031098032221862494,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7eab465242e557e9bbc223cebcaff80db7d856128f2214941d6842a6e59a90c6",
+      "geometry_sha256": "a02f26e46b236edb89ab8c71b74b35ac9a8fc682d8987a0e30ab28890b97336f",
+      "case_sha256": "de59caaeb50d4fa0a48d7bc0b1a9a618ec894b5be469fd6a071866be2eaabd1b",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_0294d27ae914e840b9af.json",
+          "sha256": "d1a07f0b306c78450c281bd703da8d1f362eae04f4bf15187e0d6e267c2d23bc",
+          "source_report_sha256": "0294d27ae914e840b9af801777e8741b9ecc9d76acae9d5a3469a7e489803c59"
+        }
+      ]
+    },
+    {
+      "id": "legacy_tokamak_official_562b1742e1",
+      "cohort": "legacy",
+      "surface": "tokamak",
+      "label": "reference_tokamak_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.679018692002613,
+      "bn": 0.004338618580862248,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7eab465242e557e9bbc223cebcaff80db7d856128f2214941d6842a6e59a90c6",
+      "geometry_sha256": "1a1318e9ce93d979dac838a2ff82a2b8fba83d535912ed50e4e5f9aa3f9b3246",
+      "case_sha256": "29cd0a266d229fba2a9acf4d7d6d369a847f73ded89da174bd4f4a757e61fc04",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_562b1742e1c36132b120.json",
+          "sha256": "84278dac9c7c433b86ca6f5c01f71a872e6505eb576fb8b3037a900032e01c81",
+          "source_report_sha256": "562b1742e1c36132b1206a968183f5c2e2715645f362cc93c0208b906aadcdef"
+        }
+      ]
+    },
+    {
+      "id": "legacy_rotating_ours_308b275c62",
+      "cohort": "legacy",
+      "surface": "rotating",
+      "label": "rotating_cap_358p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.35423051200904,
+      "bn": 0.0044736123048630914,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7189d1dec989deba2f6019855d37e0edc02c1e3ea3f3c1f792f29aaecd370111",
+      "geometry_sha256": "647fac1ded7cf099386d08392a337210b0e7afb837109ccef4c8f8745e1e2aeb",
+      "case_sha256": "ce45d5c2b6ebf665fa62a5a206a473047b9cd2db2f8a7f2546d30506100352d8",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_308b275c621b2e6c1271.json",
+          "sha256": "a5f16b7f9d78bbb5f328f7580d8cd4d4d14874273da185fae5fab3b2e6784181",
+          "source_report_sha256": "308b275c621b2e6c127128aa1f05ab81ee5e2e3acb72b6e93374804995ea66ab"
+        }
+      ]
+    },
+    {
+      "id": "legacy_rotating_official_523788be1c",
+      "cohort": "legacy",
+      "surface": "rotating",
+      "label": "old_rotating_official_128",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 0.0,
+      "bn": 0.0009560435394727835,
+      "hard_status": "FAIL",
+      "hard_pass": 2,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "7189d1dec989deba2f6019855d37e0edc02c1e3ea3f3c1f792f29aaecd370111",
+      "geometry_sha256": "169a87d9c7b41f0cebbee98544bd37667b0b2752237b41d539297efd394fc14d",
+      "case_sha256": "bac50952c3a1ed349035f30559d481257f7442f1c1daf7d66a617c62e0200991",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_523788be1c2f33244fde.json",
+          "sha256": "7c3588ff4c656e0a335377ca41d487357f792a2ac2102fc15e813a074c12149e",
+          "source_report_sha256": "523788be1c2f33244fdeb42a4472c6d64bd18d4bcd9f04d246d71799cef92b0e"
+        }
+      ]
+    },
+    {
+      "id": "legacy_Schuett_ours_5ee07b5bfd",
+      "cohort": "legacy",
+      "surface": "Schuett",
+      "label": "old_schuett",
+      "source_kind": "retained_historical_design",
+      "role": "ours",
+      "score": 1.3936674989820292,
+      "bn": 0.0005158976626153583,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "reactor_scale_max_curvature"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "2a3e1ab9295bfe0b4729988503eebc6ffe54f74c1061ad788d95a21c5823827b",
+      "geometry_sha256": "a1e64bd39347b21af8fc9c26bd9ac3c6861935ec079bac2514fda486871449c0",
+      "case_sha256": "ce582edd3534a5e5c4353e223c24d2490e24278ceeeeecfbeb47a51a1a6558ec",
+      "virtual_casing": true,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_5ee07b5bfd3fa65cb98f.json",
+          "sha256": "c460e05a9ead6a4ec98574309efcf1d811d311cd1a298c20f6c4fd49aa9ecc04",
+          "source_report_sha256": "5ee07b5bfd3fa65cb98ff8a08a18b0fba8d46f0c890016579c2116a088477e41"
+        }
+      ]
+    },
+    {
+      "id": "legacy_Schuett_official_cc832f3db5",
+      "cohort": "legacy",
+      "surface": "Schuett",
+      "label": "reference_schuett",
+      "source_kind": "selected_official_reference",
+      "role": "official",
+      "score": 1.3942163711100053,
+      "bn": 0.0005155070267202362,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "reactor_scale_max_curvature"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "2a3e1ab9295bfe0b4729988503eebc6ffe54f74c1061ad788d95a21c5823827b",
+      "geometry_sha256": "e10f670af9b971581eedc9f76ea60d6e135a677a281e88557f1ff3041a163989",
+      "case_sha256": "906439e6289171dd6e4b10aa3e1163a4e1d382447ce501cb8c901f287bc51be3",
+      "virtual_casing": true,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_cc832f3db5bca135ced6.json",
+          "sha256": "74c6b3f4149f2826e0df506143ce967dadf723d24de67d85bbec29e892059da5",
+          "source_report_sha256": "cc832f3db5bca135ced68ce0cda5b4ec612cdb4bb7167d7ef2f1008313403b3c"
+        }
+      ]
+    },
+    {
+      "id": "current_QA_ours_80729114f5",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "qa_warm_b01",
+      "source_kind": "agent_warm_start",
+      "role": "ours",
+      "score": 1.8751395256941918,
+      "bn": 0.0010869925960641032,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3a8d414157603b6ac43696b32009aec66e15cf035110be46ca0da07886af8f3b",
+      "geometry_sha256": "f0617df1b04db2fe6326052941ab0cb359df8e278df8ca2fcbe4b0d003630565",
+      "case_sha256": "258eda3cee759e95ea6967c734237058350e53a2c9ae292ee727849afaed5092",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_80729114f5e3303b0c39.json",
+          "sha256": "f9802d378eab5c2478170424645942583b5dacb9d53f5b6c0c677cdbd719590f",
+          "source_report_sha256": "80729114f5e3303b0c3977741a027507c5312bdca402744c0d45f4ef91d39a8e"
+        }
+      ]
+    },
+    {
+      "id": "current_QA_official_aebb9608aa",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "qa_selected_public_strongest",
+      "source_kind": "public_cached_best_geometry_reevaluated",
+      "role": "official",
+      "score": 1.9135007697459148,
+      "bn": 0.003522635730136853,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "3a8d414157603b6ac43696b32009aec66e15cf035110be46ca0da07886af8f3b",
+      "geometry_sha256": "dd609373b2593fbd6a120d7f07882cc6bf6ad47539d70c546e9d5c9af227ef74",
+      "case_sha256": "a3833597197803e0bbd21ba5c667d60f5a4cbebc9ba13b048f8569ad910aa5b6",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_aebb9608aaad4641f008.json",
+          "sha256": "e957278ebc8e8e57f9eebcb37b4517d9e36e6ef1793ef0be4c6eb7634f660547",
+          "source_report_sha256": "aebb9608aaad4641f008d16f386c2167890925b4b7b1b3d5ea675203fc5cc048"
+        }
+      ]
+    },
+    {
+      "id": "current_QH_ours_384a17cfd4",
+      "cohort": "current",
+      "surface": "QH",
+      "label": "qh_warm_b01",
+      "source_kind": "agent_warm_start",
+      "role": "ours",
+      "score": 1.7499042773081097,
+      "bn": 0.002376591775650815,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "f4709a1be2c11805149549f0caa0b07add719e6919e0d9c6139b71e696af95f1",
+      "geometry_sha256": "ad1b2657459ba9aad68b5c527af44ae57fe4d8a3545f65480be7cb62a00d9170",
+      "case_sha256": "7f5b16da33909187a0663ebb670a4d4cfacb4a6d4f34b33d4348fb0314b21b25",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_384a17cfd46b7d97e725.json",
+          "sha256": "6e5c9bfc181daf93c2511a9e6227cb5e6088ad84f1145532493fbc84f63d87b0",
+          "source_report_sha256": "384a17cfd46b7d97e7251cef34e51e603f8920849227be48b5272739076e237f"
+        }
+      ]
+    },
+    {
+      "id": "current_QH_official_a0a8b7784a",
+      "cohort": "current",
+      "surface": "QH",
+      "label": "qh_selected_public_strongest",
+      "source_kind": "public_cached_best_geometry_reevaluated",
+      "role": "official",
+      "score": 1.725504422244917,
+      "bn": 0.001735933339989104,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 8,
+      "soft_count": 9,
+      "soft_failures": [
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "f4709a1be2c11805149549f0caa0b07add719e6919e0d9c6139b71e696af95f1",
+      "geometry_sha256": "fa8266b1a65d332303313b8d982e64e0c1309bb7554b69da9f43f202c82f2f3f",
+      "case_sha256": "646937def7253d059b0443f11ec9583be2e72946352d68bd53cd88996232be3a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_a0a8b7784a2f1c7f126d.json",
+          "sha256": "e35517a61e2232530976ff9c677340aeb1547815a335dd366c07cbc4e5998f6d",
+          "source_report_sha256": "a0a8b7784a2f1c7f126dc4ea41c34376139a262964199c4e504112fa2beaa41d"
+        }
+      ]
+    },
+    {
+      "id": "current_W7X_ours_2d373f7861",
+      "cohort": "current",
+      "surface": "W7X",
+      "label": "w7x_warm_b04",
+      "source_kind": "agent_warm_start",
+      "role": "ours",
+      "score": 1.368561086052034,
+      "bn": 0.0029297168105363912,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "21e68dd62dfc256ca09241b3357b927453250992dd493d05915201788b7e5d59",
+      "geometry_sha256": "eb9ecabf73e14fdd1d96a5cde593435e79c10122e230c7a9aa544b27201568b7",
+      "case_sha256": "1e62c045765b73a42556af8ff66a7fb672a9b754564e4cb21ba2b8dfa7e8f775",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_2d373f7861eaf3eb30b4.json",
+          "sha256": "2c2f814b53a05f69137560f2827a3b4f91641b2d5e7d0fda863f87113c4a5d88",
+          "source_report_sha256": "2d373f7861eaf3eb30b49685732f3b625f7200706b7a32e5e6536add936c0c3f"
+        }
+      ]
+    },
+    {
+      "id": "current_W7X_official_da39b100d5",
+      "cohort": "current",
+      "surface": "W7X",
+      "label": "w7x_selected_public_agent",
+      "source_kind": "public_cached_best_geometry_reevaluated",
+      "role": "official",
+      "score": 1.246583437727369,
+      "bn": 0.006811292245517566,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_min_cc_separation",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "21e68dd62dfc256ca09241b3357b927453250992dd493d05915201788b7e5d59",
+      "geometry_sha256": "e89e3a8550c625b8f395fc594bbf599ed408491760da27b86f66bf466773d526",
+      "case_sha256": "4f6bb8bc329b0b226922d88fe84f242738101a6189f97cadf1b8db4e91695f3a",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_da39b100d573e16f1432.json",
+          "sha256": "6fe200782a66737e15360bc8eb859d326342845a7fa64bd2e820eb5a5a0567a7",
+          "source_report_sha256": "da39b100d573e16f143230af0e7212bb346093a9db79a1a0c2a5039bc069bc87"
+        }
+      ]
+    },
+    {
+      "id": "current_NCSX_all_soft_25ed00580b",
+      "cohort": "current",
+      "surface": "NCSX",
+      "label": "ncsx_cap_299p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "all_soft",
+      "score": 1.3288832459067936,
+      "bn": 0.009872820480021196,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "25060222d35c4cb93ecd3aed1e839a8925ef62085a675d36685d1a07abd18c1f",
+      "case_sha256": "722673294fe10de60e1a6c071668ccddccd7fa18da8db1d5dc6053597fb0c6ad",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_25ed00580b00fd574466.json",
+          "sha256": "6fcd13c924c6f94fc2b87944f48b4447f253bff510ef0f8a244dc6438fd27fe9",
+          "source_report_sha256": "25ed00580b00fd5744661bdf7f33e053f9a34dc640a0992f5a1837919de23a12"
+        }
+      ]
+    },
+    {
+      "id": "legacy_NCSX_all_soft_25ed00580b",
+      "cohort": "legacy",
+      "surface": "NCSX",
+      "label": "ncsx_cap_299p9_128",
+      "source_kind": "retained_historical_design",
+      "role": "all_soft",
+      "score": 1.3288832459067936,
+      "bn": 0.009872820480021196,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "34bd9984e3abc111466246ff1be4d43999b16ba0b462c3fd24aa5d06ab629e8d",
+      "geometry_sha256": "25060222d35c4cb93ecd3aed1e839a8925ef62085a675d36685d1a07abd18c1f",
+      "case_sha256": "722673294fe10de60e1a6c071668ccddccd7fa18da8db1d5dc6053597fb0c6ad",
+      "virtual_casing": false,
+      "compatibility": "paired_exact_protocol",
+      "note": null,
+      "evidence": [
+        {
+          "relative_path": "evidence/report_25ed00580b00fd574466.json",
+          "sha256": "6fcd13c924c6f94fc2b87944f48b4447f253bff510ef0f8a244dc6438fd27fe9",
+          "source_report_sha256": "25ed00580b00fd5744661bdf7f33e053f9a34dc640a0992f5a1837919de23a12"
+        }
+      ]
+    },
+    {
+      "id": "current_Schuett_unpaired_def3b2d35f",
+      "cohort": "current",
+      "surface": "Schuett",
+      "label": "current_schuett_grid64_only",
+      "source_kind": "retained_historical_design",
+      "role": "unpaired",
+      "score": 1.2524037889547395,
+      "bn": 0.0012889979916510278,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 6,
+      "soft_count": 9,
+      "soft_failures": [
+        "reactor_scale_min_cs_separation",
+        "reactor_scale_total_length",
+        "N_turns_per_coil"
+      ],
+      "all_soft_pass": false,
+      "complete": true,
+      "grid": 64,
+      "protocol_sha256": "df5d168c215127bbf0beb6a88e254ced49b2f72844a624b96b3fc9f0e6acc3ac",
+      "geometry_sha256": "30ccf02ccafb7d874843ac755e3121978cc821e52893e8e1ec807476c708fbc2",
+      "case_sha256": "86326dab633c8a671886f5fd26433b501e64aec2a6e7db8be7212b7cecc0fc45",
+      "virtual_casing": false,
+      "compatibility": "protocol_mismatch",
+      "note": "仅64网格真空方案，不参与128主榜；不能与旧VC参考直接比较。",
+      "evidence": [
+        {
+          "relative_path": "evidence/report_def3b2d35f3f5997d2f3.json",
+          "sha256": "d37190f12fdd5f55e150e903ef9d56424e8d9366d9eb6538909e90d77d3b6719",
+          "source_report_sha256": "def3b2d35f3f5997d2f39755a92c2dce44a9f8cdd62fe29562fe163fcba3473b"
+        }
+      ]
+    },
+    {
+      "id": "current_QA_all_soft_13dc95a202",
+      "cohort": "current",
+      "surface": "QA",
+      "label": "qa_fixed_r1_b17",
+      "source_kind": "fixed_search",
+      "role": "all_soft",
+      "score": 1.7136958300728535,
+      "bn": 0.0011960660215780956,
+      "hard_status": "PASS",
+      "hard_pass": 3,
+      "hard_count": 3,
+      "soft_pass": 9,
+      "soft_count": 9,
+      "soft_failures": [],
+      "all_soft_pass": true,
+      "complete": true,
+      "grid": 128,
+      "protocol_sha256": "13079bca14308da224f2408827e7822cb1bdbadf72f44c1159ccc96b183c75a2",
+      "geometry_sha256": "6fddc4c8d9ddf89b75da7b4d9a1ec54adfbd121a3814a87f1c117197eb066b91",
+      "case_sha256": "4fc5505c7a28ea058d02d47013d9ab35648744a6da319b974cde77f257a71327",
+      "virtual_casing": false,
+      "compatibility": "standalone_verified_different_protocol",
+      "note": "固定搜索基线的三硬九软合格方案；不是我们agent产生；与本行暖启动/官方配对协议不同，不据此计算胜负。",
+      "evidence": [
+        {
+          "relative_path": "evidence/report_13dc95a202e2d8b720b0.json",
+          "sha256": "ff04ea1b883f00ab49e6f15643c92a5a33a97262185575cd7ea0b8e1c775fd26",
+          "source_report_sha256": "13dc95a202e2d8b720b0df15c10155712ebd68c7290dff82c2625e81050128f9"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "历史统一配对表",
+      "sha256": "e01068bcaba3063b662fc314b9abe76e685f50cb08c062b406bda08f9a922ce1"
+    },
+    {
+      "label": "暖启动最终验收",
+      "sha256": "c12d3a7e389d88bb5c79b25cab2db449b07fbe824c5b253d8f6dd8e02e33a5b1"
+    }
+  ]
+}

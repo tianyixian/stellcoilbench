@@ -1,0 +1,8 @@
+{
+  "name": "stellcoilbench-community-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
